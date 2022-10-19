@@ -19,7 +19,7 @@ function(compilerSpecificCompileOptions PROJECTNAME ROOT)
   endif()
 
   if ((OPTIMIZED) AND (NOT DISABLEOPTIM))
-    target_compile_options(${PROJECTNAME} PUBLIC "-Ofast")
+    target_compile_options(${PROJECTNAME} PUBLIC "-O3")
   endif()
   
   if (FASTMATHCOMPUTATIONS)
