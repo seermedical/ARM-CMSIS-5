@@ -21,3 +21,4 @@ CMSIS/Utilities/Darwin64
 CMSIS/Utilities/Linux64
 CMSIS/Utilities/Win32
 *.swp
+CMSIS/DSP/build
